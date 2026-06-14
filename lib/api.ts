@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "https://66fa7571afc569e13a9bd881.mockapi.io/vod",
 });
 
 export const getMovies = async () => {
