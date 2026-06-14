@@ -54,8 +54,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My App",
-  description: "Modern Next.js App",
+  title: "VOD | Watch Movies & Series Online",
+  description:
+    "Stream and watch the latest movies and TV series anytime, anywhere. High-quality video on demand platform with a wide library of content.",
+  keywords: [
+    "VOD",
+    "video on demand",
+    "watch movies online",
+    "stream series",
+    "movies",
+    "TV shows",
+  ],
+  openGraph: {
+    title: "VOD | Watch Movies & Series Online",
+    description:
+      "Stream and watch the latest movies and TV series anytime, anywhere.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

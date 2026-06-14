@@ -30,7 +30,7 @@ const Footer = async () => {
 
 
   // to make the genre dynamic 
-  const res = await axios.get("http://localhost:3001/movies");
+  const res = await axios.get("https://66fa7571afc569e13a9bd881.mockapi.io/vod/movies");
   const movies: Movie[] = res.data;
 
   const genres: string[] = Array.from(

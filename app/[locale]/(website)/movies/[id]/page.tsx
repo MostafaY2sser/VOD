@@ -22,7 +22,7 @@ export default function MovieDetailsPage() {
   const [movies, setMovies] = useState<Movie[]>([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/movies").then((res) => {
+    axios.get("https://66fa7571afc569e13a9bd881.mockapi.io/vod/movies").then((res) => {
       setMovies(res.data);
     });
   }, []);
@@ -30,7 +30,7 @@ export default function MovieDetailsPage() {
   useEffect(() => {
     if (!id) return;
 
-    axios.get(`http://localhost:3001/movies/${id}`).then((res) => {
+    axios.get(`https://66fa7571afc569e13a9bd881.mockapi.io/vod/movies/${id}`).then((res) => {
       setMovie(res.data);
     });
   }, [id]);

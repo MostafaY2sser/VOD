@@ -22,7 +22,7 @@ export default function HomePage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/movies")
+      .get("https://66fa7571afc569e13a9bd881.mockapi.io/vod/movies")
       .then((res) => setMovies(res.data));
   }, []);
 

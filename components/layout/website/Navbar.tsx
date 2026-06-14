@@ -44,7 +44,7 @@ export default function Navbar() {
         return;
       }
 
-      axios.get("http://localhost:3001/movies").then((res) => {
+      axios.get("https://66fa7571afc569e13a9bd881.mockapi.io/vod/movies").then((res) => {
         const filtered = res.data.filter((movie: Movie) =>
           movie.title.toLowerCase().includes(searchTerm.toLowerCase())
         );
