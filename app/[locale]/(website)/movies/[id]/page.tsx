@@ -30,12 +30,14 @@ export default function MovieDetailsPage() {
   useEffect(() => {
     if (!id) return;
 
-    axios.get(`https://66fa7571afc569e13a9bd881.mockapi.io/vod/movies/${id}`).then((res) => {
-      setMovie(res.data);
-    });
-  }, [id]);
+    const paramsId = Array.isArray(id) ? id[0] : id;
 
-  // 🔥 Recommended Movies Logic
+    const found = movies.find((m) => String(m.id) === String(paramsId));
+
+    if (found) setMovie(found);
+  }, [id, movies]);
+
+  // Recommended Movies Logic
   const recommended = useMemo(() => {
     if (!movie) return [];
 

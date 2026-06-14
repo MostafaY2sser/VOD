@@ -56,9 +56,9 @@ const Footer = async () => {
 
           {/* BRAND */}
           <div>
-            <h2 className="text-2xl font-bold text-red-600 mb-4">
-              NETVOD
-            </h2>
+            <div className="mb-4">
+              <img src="/logo.png" alt="logo" className="w-28" />
+            </div>
             <p className="text-sm text-zinc-400 leading-6">
               {t("storeDescription")}
             </p>

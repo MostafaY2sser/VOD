@@ -88,7 +88,7 @@ export default function Navbar() {
               href={`/${locale}`}
               className="text-3xl font-black text-red-600"
             >
-              NETVOD
+              <img src="/logo.png" alt="logo" className="w-24" />
             </Link>
 
             <nav className="hidden md:flex gap-6">
