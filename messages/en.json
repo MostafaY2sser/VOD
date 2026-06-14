@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "movies": "Movies",
+    "about": "About Us",
+    "contact": "Contact",
+    "logout": "Logout",
+    "storeName": "Movies Store"
+  },
+  
+  "hero": {
+    "title": "Welcome to our store",
+    "subtitle": "Best products for you",
+    "cta": "Browse Products"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "delivery": {
+      "title": "Fast Delivery",
+      "description": "Get your products delivered quickly and safely."
+    },
+    "quality": {
+      "title": "Best Quality",
+      "description": "High quality products selected carefully for you."
+    },
+    "payment": {
+      "title": "Secure Payment",
+      "description": "Safe and trusted payment methods."
+    }
+  },
+  "products": {
+    "title": "Featured Products",
+    "viewProduct": "View Product",
+    "description": "Amazing product description here.",
+    "one": "Product One",
+    "two": "Product Two",
+    "three": "Product Three",
+    "pageTitle": "Products",
+    "pageSubtitle": "Browse our full catalog"
+  },
+  "about": {
+    "title": "About Our Store",
+    "description": "We provide premium products with modern shopping experience, fast delivery, and trusted customer support."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions? Reach out to our support team anytime.",
+    "cta": "Contact Support"
+  },
+  "footer": {
+    "storeName": "My Store",
+    "storeDescription": "Modern e-commerce platform with high quality products and fast delivery service.",
+    "quickLinks": "Quick Links",
+    "copyright": "© 2026 My Store. All rights reserved."
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Sign in to continue to your account",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join us today and start shopping"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back!",
+    "totalBookings": "Total Bookings",
+    "recentActivity": "Recent Activity"
+  },
+  "bookings": {
+    "title": "My Bookings",
+    "noBookings": "No bookings found",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "save": "Save Changes"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back"
+  }
+}
